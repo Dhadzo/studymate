@@ -11,6 +11,7 @@ Create a .env file and add the following variables
 * SECRET_ACCESS_KEY = add the secret access key for your AWS S3 account
 * ACCESS_KEY_ID = add the access key id from your AWS S3 account
 * REGION = add the region from your AWS S3 account.
+
 Run npm install followed by npm start in both client and server directories. 
 
 ## Tech Stack used.
