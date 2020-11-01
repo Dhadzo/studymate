@@ -1,0 +1,33 @@
+.dropdownheader{
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    z-index: 100;
+    width: 190px;
+    //padding-top: 4px;
+    //padding-bottom: 4px;
+   // margin-top: 2px;
+    list-style: none;
+    //display: contents;
+//	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center;
+    //background-color: #fff;
+    // background:rgba(40,57,101,.9);
+    background-color: #1f2029;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+        
+
+    background-clip: padding-box;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(149,157,165,.2);
+    //margin: 0px;
+    //padding: 0px;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-family: Arial,sans-serif,Color;
+    font-size: 14px;
+    //color: white;
+    color: #c4c3ca !important;
+    font-family: 'Grenze Gotisch', cursive;
+
+}

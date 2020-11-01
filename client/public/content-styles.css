@@ -1,0 +1,8 @@
+.ck-content .image-style-side {
+    float: right;
+    margin-left: var(--ck-image-style-spacing);
+    max-width: 50%;
+}
+.ck-content .image.image_resized img {
+    width: 10%;
+}

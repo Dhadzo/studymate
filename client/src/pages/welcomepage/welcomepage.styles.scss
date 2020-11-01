@@ -1,0 +1,72 @@
+.welcome-body{
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 60px;
+    color: #1f2029;
+    font-family: 'Grenze Gotisch', cursive;
+}
+.intro{
+  width: 47%;
+}
+.introHead{
+    font-size: 100px;
+}
+.introBody{
+    font-size: 30px;
+}
+.welcome-picture{
+    width: 400px;
+    height: 400px;
+}
+.picDiv{
+    //margin-left: 800px;
+    //margin-top: 0px;
+}
+.buttn{
+    position: relative;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    height: 50px;
+    transition: all 200ms linear;
+    border-radius: 27px;
+    width: 240px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+    border: none;
+    cursor: pointer;
+	background-color: #A11919;
+    color: white;
+    box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+}
+.buttn:hover{
+    background-color: #ffeba7;
+    color: #102770;
+}
+

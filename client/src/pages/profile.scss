@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    margin-top:60px;
+    
+}
+.midDiv{
+    width: 50%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.commonAttributes{
+    background-color:white;
+    border-radius:5px;
+    display:flex;
+    width:550px;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+.newPostDiv{
+    @extend .commonAttributes;
+    flex-direction:column;
+    height: 80px;
+    justify-content:center;
+
+}
+.displayedPostsOptions{
+    @extend .commonAttributes;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+    font-family:sans;
+    font-size:17px;
+    padding: 25px;
+    background-color: white;
+	background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 10%;
+	
+    // p{
+    //     background-color: #E1E8ED;
+    //     max-width: 100px;
+    //     height: 30px;
+    //     padding: 5px;
+    //     margin-top: 10px;
+    //     padding-bottom: 5px;
+    //     border-radius: 5px;
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     align-items: center;
+    //     cursor: pointer;
+    // }
+    i{
+        cursor: pointer;
+        font-size: 50px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
+.profileOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 700px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+    p{
+        position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 2;
+  height: 50px;
+  transition: all 200ms linear;
+  border-radius: 4px;
+  width: 240px;
+  letter-spacing: 1px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+-ms-flex-item-align: center;
+align-self: center;
+  border: none;
+  cursor: pointer;
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+    }
+    p:hover{
+        background-color: #ffeba7;
+        color: #102770;
+    }
+}
+.topDiv{
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 10%;
+	
+    background-color: white;
+   
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+

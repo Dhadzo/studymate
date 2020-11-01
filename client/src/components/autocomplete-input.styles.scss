@@ -1,0 +1,22 @@
+.searchbar:focus {
+    box-shadow: none !important;
+  }
+  .searchbar{
+    border: 1px solid white !important;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: white !important;
+    background-color: #1f2029 !important;
+  }
+  .searchbar::placeholder{
+    color: white !important;
+  }
+  .auto-div{
+    width: 330px;
+    position: absolute;
+    background-color: #1f2029;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    
+  }

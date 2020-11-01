@@ -1,0 +1,76 @@
+.video-screen{
+    top: 0;
+    //width:440px;
+   // height: 360px;
+    background-color:black;
+}
+.controls{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 2%;
+  bottom: 40px;
+  width: 90%;
+  flex-wrap: wrap;
+  visibility: hidden;
+}
+.play-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  position: relative;
+  height: 2%;
+  //top: 40vh;
+  right: 55%;
+  //width: 440px;
+  font-size: 80px;
+  cursor: pointer;
+}
+button{
+    background: none;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    font-size: 10px;
+}
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    height:2px;
+    //top: 0;
+    left: 0;
+    width: 60%;
+}
+.blue-juice{
+    height: 2px;
+    width: 0px;
+    background: green;
+}
+.time{
+    font-size: 10px;
+}
+.play-pause:before{
+    content:"\f04b";
+    font-family: "Font Awesome 4 Free";
+    -webkit-font-smoothing: antialiased;
+}
+.play-pause.play:before{
+    content: "\f144";
+}
+.play-pause.pause:before{
+    content: "\f28b";
+}
+// .volume-icon:before{
+//     content: "\f144";
+//     font-family: "Font Awesome 4 Free";
+//     -webkit-font-smoothing: antialiased;    
+// }
+// .enlarge-icon:before{
+//     content: "\f065";
+//     font-family: "Font Awesome 5 Free";
+//     -webkit-font-smoothing: antialiased;     
+// }

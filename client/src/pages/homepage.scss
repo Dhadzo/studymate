@@ -1,0 +1,67 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  margin-top: 100px;
+}
+.newPostDiv{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 10%;
+    width: 550px;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+.who-to-follow{
+    background-color: white;
+    height: 500px;
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.displayedPostsOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 82%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background-color: white;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 10%;
+    height: 80px;
+    margin-bottom: 20px;
+    i{
+        cursor: pointer;
+        font-size: 50px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.posts{
+    width: 60%;
+    display:flex;
+    flex-direction:column;    
+    align-items: center;
+}
