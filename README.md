@@ -12,7 +12,7 @@ Create a .env file and add the following variables
 * ACCESS_KEY_ID = add the access key id from your AWS S3 account
 * REGION = add the region from your AWS S3 account.
 
-Run npm install followed by npm start in both client and server directories. 
+Enter npm install followed by npm start in both client and server directories to run the project. 
 
 ## Tech Stack used.
 * Reactjs
