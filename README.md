@@ -1,6 +1,6 @@
 # StudyMate
 StudyMate is a platform for students where they get to interact with others who have similar interests with them. 
-It also helps them to find the closest study partners from their current location.This project is still under development and will be updated soon.
+It also helps them to find the closest study partners from their current location. This project is still under development and will be updated soon.
 A demo can be found [here](https://tafadzwa-study-mate.herokuapp.com/). 
 
 ## Running the project locally.
